@@ -1,0 +1,78 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Cartography (4.0.0)
+  - DeviceKit (1.5.0)
+  - Kingfisher (5.10.1):
+    - Kingfisher/Core (= 5.10.1)
+  - Kingfisher/Core (5.10.1)
+  - ReachabilitySwift (5.0.0)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SideMenu (6.4.7)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Cartography
+  - DeviceKit
+  - Kingfisher
+  - ReachabilitySwift
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SideMenu (from `https://github.com/carlosgarciapecun/SideMenu.git`, branch `feature/add_xcode_11.4_support`)
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cartography
+    - DeviceKit
+    - Kingfisher
+    - ReachabilitySwift
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftMessages
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SideMenu:
+    :branch: feature/add_xcode_11.4_support
+    :git: https://github.com/carlosgarciapecun/SideMenu.git
+
+CHECKOUT OPTIONS:
+  SideMenu:
+    :commit: 18a6f1d2292dd68c30dea3565b4fbe235505e17d
+    :git: https://github.com/carlosgarciapecun/SideMenu.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
+  DeviceKit: 883552d64028056216e913a88f892e7e29678e75
+  Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SideMenu: 928a015669c3afc201e1fe3a87f1b0bc8993a664
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: cdca3671a00cb1f4807b9aa1fb05e11f2cc9b4dc
+
+COCOAPODS: 1.8.4
