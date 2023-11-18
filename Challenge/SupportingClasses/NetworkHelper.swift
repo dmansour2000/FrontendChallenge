@@ -36,7 +36,7 @@ class NetworkHelper
         httpBodyData:Data? = nil,
         responseType: ResponseType = .StringJson,
         callbackNoInterent: (() -> Void)? = nil,
-        callbackString: ((DataResponse<String>) -> Void)? = nil,
+        callbackString: ((DataResponse<String, AFError>) -> Void)? = nil,
         callbackSwiftyDic: ((_ JSON: JSON, _ Error: Error?) -> Void)? = nil)
     {
         
@@ -86,14 +86,14 @@ class NetworkHelper
                 ]
                 
                 for header in headers {
-                    request.setValue(header.value, forHTTPHeaderField: header.key)
+                    request.setValue(header.value, forHTTPHeaderField: header.name)
                 }
             }
             
             print("✍🏻 Request URL >>>> " + UrlString)
             print("✍🏻 Request Body >>>> " + (httpBody == nil ? (parameters == nil ? "" : String(describing: parameters!)) : httpBody!))
             
-            Alamofire.request(request)
+            AF.request(request)
                 .responseString { response in
                     
                     switch response.result {

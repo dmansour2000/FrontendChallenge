@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
       
        var mainNavigation : UINavigationController?
-       internal let currentDevice = Device()
+    internal let currentDevice = Device.unknown("")
        fileprivate var fontSize: CGFloat {
            get {
                if currentDevice == .iPhone6

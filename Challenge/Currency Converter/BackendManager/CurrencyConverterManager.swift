@@ -6,8 +6,11 @@
 //  Copyright © 2018 TestApplication. All rights reserved.
 //
 
+import Alamofire
+import RxAlamofire
 import RxSwift
 import RxCocoa
+import Foundation
 
 
 enum AutenticationError: Error {
@@ -29,7 +32,7 @@ typealias JSONDictionary = [String: Any]
 class CurrencyConverterManager {
     
     
-    let status = Variable(AutenticationStatus.none)
+    let status = Session(configuration: .ephemeral)
     static var sharedManager = CurrencyConverterManager()
     
     fileprivate init() {}
