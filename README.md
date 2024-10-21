@@ -26,7 +26,6 @@ This native iOS mobile app, is built with UIKit and using RXSwift as well as MVV
 
 ### Getting Started:
 
-- Clone the Repository: Use git clone ``` https://github.com/dmansour2000/FrontendChallenge.git ``` to clone this repository.
-- Install Dependencies: Run pod install in your terminal to install the required CocoaPods dependency (RXSwift, Reachability, etc).
+- Download (from the green button above) or Clone the Repository: Use git clone ``` https://github.com/dmansour2000/FrontendChallenge.git ``` to clone this repository.
 - Run the App: Open the project in Xcode and run the app on your desired iOS device or simulator.
 
