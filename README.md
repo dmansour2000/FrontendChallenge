@@ -6,6 +6,7 @@ This native iOS mobile app, built with UIKit and using RXSwift as well as MVVM D
 <p>
    <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Screenshot%202024-10-21%20at%201.02.41%E2%80%AFPM.png", width="500" hspace="4"/>
    </p>
+   
 ### App Screenshots
 
 <p>
