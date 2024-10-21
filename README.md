@@ -14,7 +14,7 @@ This native iOS mobile app, built with UIKit and using RXSwift as well as MVVM D
    <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.54.20.png", width="150" hspace="4"/>
     <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.54.27.png", width="150" hspace="4"/>
   <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.54.38.png", width="150" hspace="4"/>
-   <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.54.38.png", width="150" hspace="4"/>
+   <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.54.47.png", width="150" hspace="4"/>
   <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.54.56.png", width="150" hspace="4"/>
   <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.55.18.png", width="150" hspace="4"/>
  <img src="https://github.com/dmansour2000/FrontendChallenge/blob/master/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202024-10-21%20at%2012.55.34.png", width="150" hspace="4"/>
